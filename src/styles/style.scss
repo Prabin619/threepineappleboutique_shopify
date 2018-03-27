@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'qontra';
+    src: url('assets/fonts/qontra-Regular.eot');
+    src: url('assets/fonts/qontra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/qontra-Regular.woff') format('woff'),
+        url('assets/fonts/qontra-Regular.ttf') format('truetype'),
+        url('assets/fonts/qontra-Regular.svg#qontra-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+	color: #222;
+}
+header {
+	padding: 12px 0;
+
+	form {
+	    margin-bottom: 3em;
+	}
+
+	button.btn {
+	    margin-left: -55px;
+	    z-index: 99;
+	    background: transparent;
+	}
+
+	[type="search"], .header-cart {
+	    border: 1px solid #dfdfdf;
+	    padding: 15px 20px;
+	    text-transform: uppercase;
+	}
+	[type="search"] {
+	    max-width: 272px;
+	    border: 1px solid #dfdfdf;
+	    color: #666;
+	    display: inline;
+	    padding: 15px 20px;
+	    width: 100%;
+	    text-transform: uppercase;
+	}
+	.site-header__logo-image {
+	    margin: auto;
+	}
+	.header-cart {
+	    display: inline-block;
+	    letter-spacing: 1px;
+	    position: relative;
+	    color: #222;
+	    float: right;
+
+	    span {
+		    color: #f7b239;
+		}
+		svg {
+		    padding-right: 50px;
+		}
+	}
+	.social-icons {
+		a {
+		    margin-right: 30px;
+		}
+	} 
+}
+
+nav {
+	ul.site-nav {
+	    margin: 0;
+	    padding: 10px;
+	    list-style: none;
+	    text-align: center;
+	    border-bottom: 5px solid #f7b239;
+
+	 	li {
+		    display: inline;
+		    margin: 0 5px;
+
+		    a {
+			    padding: 10px 20px;
+			}
+		}
+	}
+}
